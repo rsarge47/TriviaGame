@@ -4,7 +4,7 @@ $(document).ready(function () {
     var right = 0;
     var wrong = 0;
     var untouch = 0;
-    var timeRemain = 5;
+    var timeRemain = 25;
     var timer;
     run();
 
@@ -30,7 +30,7 @@ $(document).ready(function () {
         // Attempted :checked
         // why does this return a value of "on"? ---->   var test = $('input[name="first"]:checked').val(); 
         // console.log("test: " + test);
-         
+
         for (i = 0; i < select.length; i++) {
             if (select[i].checked) {  
                 // I want to understand why .attr does not work here        
