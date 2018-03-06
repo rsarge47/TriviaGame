@@ -1,0 +1,33 @@
+body {
+    background-image: url("../../assets/images/map.jpg");
+    text-align: center;
+}
+.head {
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+}
+.timer {
+    color: rgb(170, 15, 15);
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    font-size: 3em;
+    width: 460px;
+    margin-left: 20%;
+}
+.results {
+    font-size: 2em;
+    font-weight: bold;
+}
+.quiz {
+    font-weight: bolder;
+    font-size: 2em;
+}
+.questions {
+    color: white;
+}
+.answers {
+    color: black;
+}
